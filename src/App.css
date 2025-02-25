@@ -1,0 +1,27 @@
+body {
+  background-color: #222831;
+  color: #F5F5F5 !important;
+}
+
+
+
+.portfolioNav,
+.navbar,
+.navbar-brand,
+.nav-link,
+.dropdown-menu,
+.dropdown-menu.show,
+.dropdown-toggle,
+.dropdown-item,
+.form-control {
+  background-color: #222831;
+  color: #F5F5F5 !important;
+}
+
+
+.btn {
+  background-color: #222831;
+  border-color: #F5F5F5;
+  color: #F5F5F5 !important;
+
+}
