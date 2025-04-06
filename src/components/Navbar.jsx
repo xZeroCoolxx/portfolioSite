@@ -12,8 +12,11 @@ function NavScrollExample() {
         <Navbar.Brand href="#" style={{ color: "#F5F5F5" }}>
           Navbar scroll
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll">
+        <Navbar.Toggle
+          aria-controls="navbarScroll"
+          style={{ backgroundColor: "#F5F5F5" }}
+        />
+        <Navbar.Collapse id="navbarScroll" style={{ color: "#F5F5F5" }}>
           <Nav
             className="me-auto my-2 my-lg-0"
             style={{ maxHeight: "100px" }}

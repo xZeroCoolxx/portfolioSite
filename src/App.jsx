@@ -5,6 +5,7 @@ import NavScrollExample from "./components/Navbar";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import TopBanner from "./components/TopBanner";
+import Bio from "./components/Bio";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -13,6 +14,7 @@ function App() {
     <>
       <TopBanner />
       <NavScrollExample></NavScrollExample>
+      <Bio></Bio>
     </>
   );
 }
