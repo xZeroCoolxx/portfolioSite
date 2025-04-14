@@ -55,6 +55,7 @@ Error generating stack: `+a.message+`
   height: 50px;
   justify-content: center;
 `,zv=()=>Ht.jsx(Tv,{children:"Jovany Miranda"});let _v=Ju.div`
+  align-items: center;
   border: solid;
   border-left: none;
   border-right: none;
