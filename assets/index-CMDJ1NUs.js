@@ -62,8 +62,8 @@ Error generating stack: `+a.message+`
   display: flex;
   height: 50px;
   justify-content: space-between;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 10%;
+  padding-right: 10%;
   width: 100%;
 `,vi=Ju.div``;const Ov=()=>Ht.jsxs(_v,{children:[Ht.jsx(vi,{children:"About Me"}),Ht.jsx(vi,{children:"Contact"}),Ht.jsx(vi,{children:"Projects"}),Ht.jsx(vi,{children:"Resume"})]});let Dv=Ju.div`
   background-color: #222831;
