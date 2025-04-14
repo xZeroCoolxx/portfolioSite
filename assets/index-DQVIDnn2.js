@@ -60,8 +60,8 @@ Error generating stack: `+n.message+`
   justify-content: center;
 `,JO=()=>M.jsx(kO,{children:"Jovany Miranda"});let WO=bs.div`
   background-color: #222831;
-  border-top: solid 4px #ffd369;
-  color: #ffd369;
+  border-top: solid 4px #eeeeee;
+  color: #eeeeee;
   padding: 2rem;
   height: auto;
   max-width: 800px;
