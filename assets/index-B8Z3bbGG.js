@@ -52,6 +52,8 @@ Error generating stack: `+a.message+`
   background-color: #222831;
   color: #f5f5f5;
   display: flex;
+  font-family: "Poetsen One", sans-serif;
+  font-size: 24px;
   height: 50px;
   justify-content: center;
 `,zv=()=>Ht.jsx(Tv,{children:"Jovany Miranda"});let _v=Ju.div`
