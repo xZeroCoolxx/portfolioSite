@@ -1,9 +1,5 @@
 [
-  {
-    "id": 1,
-    "title": "Portfolio Website",
-    "description": "A personal portfolio site built with React and Tailwind."
-  },
+  
   {
     "id": 2,
     "title": "Task Tracker",
