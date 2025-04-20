@@ -87,7 +87,10 @@ Error generating stack: `+a.message+`
   padding: 5px;
 `,Uv=Na.div`
   border: solid;
+  display: flex;
+  flex-direction: column;
   height: 100px;
+  justify-content: space-between;
   margin-bottom: 50px;
   width: 100px;
 `;const Hv=()=>{const[i,r]=ue.useState([]);return ue.useEffect(()=>{fetch("/portfolioSite/dummydata.json").then(o=>{if(!o.ok)throw new Error(`HTTP error! Status: ${o.status}`);return o.json()}).then(o=>r(o)).catch(o=>console.error("Error loading data:",o))},[]),zt.jsx(Rv,{children:i.map(o=>zt.jsxs(Uv,{children:[zt.jsx("h2",{className:"GridTitle",children:o.title}),zt.jsx("p",{className:"GridDesc",children:o.description})]},o.id))})};let Nv=Na.div`
