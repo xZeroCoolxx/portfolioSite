@@ -89,7 +89,9 @@ Error generating stack: `+a.message+`
   height: 100px;
   margin-bottom: 50px;
   width: 100px;
-`;const Hv=()=>{const[i,r]=ue.useState([]);return ue.useEffect(()=>{fetch("/portfolioSite/dummydata.json").then(o=>{if(!o.ok)throw new Error(`HTTP error! Status: ${o.status}`);return o.json()}).then(o=>r(o)).catch(o=>console.error("Error loading data:",o))},[]),zt.jsx(Rv,{children:i.map(o=>zt.jsxs(Uv,{children:[zt.jsx("h2",{children:o.title}),zt.jsx("p",{children:o.description})]},o.id))})};let Nv=Na.div`
+
+  overflow: hidden;
+`;const Hv=()=>{const[i,r]=ue.useState([]);return ue.useEffect(()=>{fetch("/portfolioSite/dummydata.json").then(o=>{if(!o.ok)throw new Error(`HTTP error! Status: ${o.status}`);return o.json()}).then(o=>r(o)).catch(o=>console.error("Error loading data:",o))},[]),zt.jsx(Rv,{children:i.map(o=>zt.jsxs(Uv,{children:[zt.jsx("h2",{className:"GridTitle",children:o.title}),zt.jsx("p",{className:"GridDesc",children:o.description})]},o.id))})};let Nv=Na.div`
   background-color: #222831;
   color: #f5f5f5;
 `;function qv(){const[i,r]=ue.useState(0);return zt.jsxs(Nv,{children:[zt.jsx(zv,{}),zt.jsx(Ov,{}),zt.jsx(Mv,{}),zt.jsx(Hv,{})]})}py.createRoot(document.getElementById("root")).render(zt.jsx(ue.StrictMode,{children:zt.jsx(qv,{})}));
