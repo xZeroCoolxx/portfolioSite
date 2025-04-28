@@ -99,9 +99,9 @@ Error generating stack: `+a.message+`
   padding: 5px;
   width: 400px;
 `;const Rv=()=>{const[i,s]=ue.useState([]);return ue.useEffect(()=>{fetch("/portfolioSite/dummydata.json").then(o=>{if(!o.ok)throw new Error(`HTTP error! Status: ${o.status}`);return o.json()}).then(o=>s(o)).catch(o=>console.error("Error loading data:",o))},[]),_t.jsx(Dv,{children:i.map(o=>_t.jsxs(Mv,{children:[_t.jsx("h2",{className:"GridTitle",children:o.title}),_t.jsx("p",{className:"GridDesc",children:o.description})]},o.id))})};let Uv=Na.div`
-  background-image: url("https://i.pinimg.com/1200x/60/db/4f/60db4f589691ec49156a99a07ffe895e.jpg");
+  /* background-image: url("https://i.pinimg.com/1200x/60/db/4f/60db4f589691ec49156a99a07ffe895e.jpg");
   background-position: center;
-  background-repeat: repeat;
-  /* background-color: #222831;
-  color: #f5f5f5; */
+  background-repeat: repeat; */
+  background-color: #222831;
+  color: #f5f5f5;
 `;function Hv(){const[i,s]=ue.useState(0);return _t.jsxs(Uv,{children:[_t.jsx(zv,{}),_t.jsx(Ov,{}),_t.jsx(Rv,{})]})}by.createRoot(document.getElementById("root")).render(_t.jsx(ue.StrictMode,{children:_t.jsx(Hv,{})}));
