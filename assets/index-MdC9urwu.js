@@ -64,8 +64,7 @@ Error generating stack: `+a.message+`
   border-right: none;
   border-top: none;
   border-color: #eeeeee;
-  border-width: 2px;
-  border-radius: 20px;
+  border-width: 1px;
   display: flex;
   height: 50px;
   justify-content: space-between;
