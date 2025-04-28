@@ -1,4 +1,4 @@
-body {
+/* body {
   background-color: #222831;
   color: #F5F5F5 !important;
 }
@@ -24,4 +24,19 @@ body {
   border-color: #F5F5F5;
   color: #F5F5F5 !important;
 
+}
+
+*/ .GridTitle {
+  font-size: 16px;
+  text-align: center;
+}
+
+.GridDesc {
+  font-size: 12px;
+  text-align: center;
+
+
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }

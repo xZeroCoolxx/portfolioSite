@@ -1,0 +1,48 @@
+[
+  
+  {
+    "id": 2,
+    "title": "Task Tracker",
+    "description": "A simple app for managing tasks and todos."
+  },
+  {
+    "id": 3,
+    "title": "Weather App",
+    "description": "An app that shows real-time weather using a public API."
+  },
+  {
+    "id": 4,
+    "title": "E-commerce Dashboard",
+    "description": "An admin dashboard for managing products and orders."
+  },
+  {
+    "id": 5,
+    "title": "Blog Platform",
+    "description": "A markdown-based blog system with categories and tags."
+  },
+  {
+    "id": 6,
+    "title": "Recipe Finder",
+    "description": "Search recipes by ingredients using a meal API."
+  },
+  {
+    "id": 7,
+    "title": "Chat App",
+    "description": "A real-time chat app using WebSockets."
+  },
+  {
+    "id": 8,
+    "title": "Finance Tracker",
+    "description": "Track your income and expenses with charts and filters."
+  },
+  {
+    "id": 9,
+    "title": "Movie Explorer",
+    "description": "Browse and search for movies using the TMDB API."
+  },
+  {
+    "id": 10,
+    "title": "Habit Builder",
+    "description": "A goal-tracking app to help build better habits."
+  }
+]
